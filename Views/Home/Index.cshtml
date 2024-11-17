@@ -1,0 +1,20 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<h2>Welcome to the Hospital Management System</h2>
+
+<!-- Button to Doctors page -->
+<p>
+    <a href="@Url.Action("Index", "Doctors")" class="btn btn-primary">View Doctors</a>
+</p>
+
+<!-- Button to Patients page -->
+<p>
+    <a href="@Url.Action("Index", "Patients")" class="btn btn-primary">View Patients</a>
+</p>
+
+<!-- Button to Employees page -->
+<p>
+    <a href="@Url.Action("Index", "Employees")" class="btn btn-primary">View Employees</a>
+</p>
