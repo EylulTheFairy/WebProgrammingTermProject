@@ -1,0 +1,185 @@
+﻿<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Utm+Times+New+Roman&display=swap" rel="stylesheet" />
+    <title>WiseMed</title>
+    <style>
+        @Html.Raw("@import url('https://fonts.googleapis.com/css2?family=Times+New+Roman&display=swap');")
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: url('https://storage.googleapis.com/a1aa/image/VqQuzZ5BfoxLCKJesbcb9nv84jc9OpEvI5qZ4WimfgfbjqQPB.jpg') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .header {
+            background-color: #b30000;
+            padding: 15px 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .logo-text a {
+            color: white;
+            text-decoration: none;
+            font-size: 28px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+        }
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        .nav-links a:hover {
+            color: #ffcccc;
+        }
+        .auth-buttons {
+            display: flex;
+            gap: 10px;
+        }
+        .auth-buttons a {
+            color: #b30000;
+            background-color: white;
+            text-decoration: none;
+            padding: 5px 15px;
+            border-radius: 5px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .auth-buttons a:hover {
+            background-color: #ffcccc;
+            color: #b30000;
+        }
+        .footer {
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .footer .social-icons a {
+            color: #fff;
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 24px;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 50px;
+            flex: 1;
+        }
+        .form-container, .info-container {
+            background: rgba(255, 255, 255, 0.5); /* Adjust the transparency here */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 0 150px; /* Half of 300px to each side */
+        }
+        .form-container {
+            width: 20%; /* Adjusted width */
+        }
+        .info-container {
+            width: 25%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .form-container input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        .form-container label {
+            font-weight: bold;
+        }
+        .form-container .submit-btn {
+            background-color: #e60000;
+            color: white;
+            padding: 10px 20px; /* Adjust padding to fit the text */
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 20px; /* Add margin to move the button down */
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            font-weight: bold;
+        }
+        .info-container .submit-btn {
+            background-color: #e60000;
+            color: white;
+            padding: 10px 20px; /* Adjust padding to fit the text */
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 20px; /* Add margin to move the button down */
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            font-weight: bold;
+        }
+        .info-container ul {
+            list-style: none;
+            padding: 0;
+        }
+        .info-container ul li {
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+            font-weight: bold;
+        }
+        .info-container ul li i {
+            color: #e60000;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="form-container">
+            <label for="tc">Social Security Number</label>
+            <input id="tc" name="tc" type="text" />
+            <label for="password">Password</label>
+            <input id="password" name="password" placeholder="Must contain 1 uppercase letter, 1 number, and be at least 6 characters long." type="password" />
+            <button class="submit-btn">Login</button>
+        </div>
+        <div class="info-container">
+            <ul>
+                <li><i class="fas fa-file-alt"></i>You can see your prescription.</li>
+                <li><i class="fas fa-vials"></i>You can access the results of your tests and imaging.</li>
+                <li><i class="fas fa-pills"></i>We remind you to take your medications.</li>
+                <li><i class="fas fa-bell"></i>We remind you of your appointments one day in advance.</li>
+            </ul>
+            <button class="submit-btn">Register</button>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </div>
+</body>
+</html>
