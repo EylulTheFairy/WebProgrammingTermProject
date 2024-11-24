@@ -1,0 +1,397 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>WM Home</title>
+    <link href="~/Views/Home/Home.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Utm+Times+New+Roman&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+            background-color: #f4f4f4;
+            padding-bottom: 80px;
+        }
+
+        .header {
+            background-color: #b30000;
+            padding: 15px 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo-text a {
+            color: white;
+            text-decoration: none;
+            font-size: 28px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+
+            .nav-links a {
+                color: white;
+                text-decoration: none;
+                font-size: 16px;
+                font-weight: 600;
+                transition: color 0.3s;
+            }
+
+                .nav-links a:hover {
+                    color: #ffcccc;
+                }
+
+        .auth-buttons {
+            display: flex;
+            gap: 10px;
+        }
+
+            .auth-buttons a {
+                color: #b30000;
+                background-color: white;
+                text-decoration: none;
+                padding: 5px 15px;
+                border-radius: 5px;
+                font-size: 14px;
+                font-weight: 600;
+            }
+
+                .auth-buttons a:hover {
+                    background-color: #ffcccc;
+                    color: #b30000;
+                }
+
+        .main-content {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+
+        .carousel {
+            width: 100%;
+            position: relative;
+            overflow: hidden;
+            border-radius: 0;
+        }
+
+            .carousel img {
+                width: 100%;
+                height: 500px; /* Slide height */
+                object-fit: cover;
+                object-position: center;
+                background-color: #f4f4f4;
+                display: none;
+                border: none;
+            }
+
+                .carousel img.active {
+                    display: block;
+                }
+
+        .carousel-buttons {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            transform: translateY(-50%);
+        }
+
+            .carousel-buttons button {
+                background-color: rgba(0, 0, 0, 0.5);
+                border: none;
+                color: white;
+                padding: 10px;
+                cursor: pointer;
+            }
+
+                .carousel-buttons button:hover {
+                    background-color: rgba(0, 0, 0, 0.8);
+                }
+
+        .carousel-indicators {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+        }
+
+            .carousel-indicators button {
+                background-color: rgba(0, 0, 0, 0.5);
+                border: none;
+                margin: 0 5px;
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                cursor: pointer;
+            }
+
+                .carousel-indicators button.active {
+                    background-color: rgba(0, 0, 0, 0.8);
+                }
+
+        .buttons-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+            .buttons-container a {
+                display: inline-block;
+                background-color: #b30000;
+                color: white;
+                padding: 15px 30px;
+                margin: 10px;
+                border-radius: 5px;
+                text-decoration: none;
+                transition: background-color 0.3s, transform 0.3s;
+            }
+
+                .buttons-container a:hover {
+                    background-color: #990000;
+                    transform: scale(1.05);
+                }
+
+        .health-guide-section {
+            margin-top: 40px;
+            text-align: center;
+        }
+
+            .health-guide-section h2 {
+                font-size: 24px;
+                color: #5bc0be; /* Light blue color */
+                display: inline-block;
+                padding: 5px 20px;
+                border: 2px solid #5bc0be; /* Border color */
+                border-radius: 15px;
+                background-color: #e0f7fa; /* Background color */
+                margin-bottom: 20px;
+                position: relative;
+            }
+
+                .health-guide-section h2::before,
+                .health-guide-section h2::after {
+                    content: '';
+                    position: absolute;
+                    top: 50%;
+                    width: 100px;
+                    height: 2px;
+                    background-color: #5bc0be;
+                    transform: translateY(-50%);
+                }
+
+                .health-guide-section h2::before {
+                    left: -120px;
+                }
+
+                .health-guide-section h2::after {
+                    right: -120px;
+                }
+
+        .health-guide-cards {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .health-card {
+            width: 250px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: white;
+            transition: transform 0.3s;
+        }
+
+            .health-card img {
+                width: 100%;
+                height: 150px;
+                object-fit: cover;
+            }
+
+        .card-info {
+            padding: 15px;
+            text-align: left;
+        }
+
+            .card-info h3 {
+                font-size: 16px;
+                margin: 0 0 10px;
+            }
+
+            .card-info p {
+                font-size: 14px;
+                color: #555;
+            }
+
+        .health-card:hover {
+            transform: scale(1.05);
+        }
+
+        .footer {
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+            .footer .social-icons a {
+                color: #fff;
+                margin: 0 10px;
+                text-decoration: none;
+                font-size: 24px;
+            }
+
+    </style>
+    <div class="header">
+        <div class="logo-text"><a href="Home.cshtml">WiseMed</a></div> <!-- Link to homepage -->
+        <nav class="nav-links">
+            <a href="Home.html">Home</a>
+            <a href="#">Medical Units</a>
+            <a href="#">Doctors</a>
+            <a href="#">Health Guide</a>
+            <a href="#">Patient Guide</a>
+            <a href="AboutUs.html">About Us</a>
+            <a href="ContactUs.html">Contact Us</a>
+        </nav>
+        <div class="auth-buttons">
+            <a href="#">Doctor Login</a>
+            <a href="#">Patient Login</a>
+            <a href="#">Quick Appointment</a>
+        </div>
+    </div>
+    <div class="main-content">
+        <div class="carousel">
+            <img alt="Slide 1" class="active" src="assets/Slaid1.jpg" />
+            <img alt="Slide 2" src="assets/Slaid2.jpg" />
+            <img alt="Slide 3" src="assets/Slaid3.jpg" />
+            <div class="carousel-buttons">
+                <button class="prev">&#10094;</button>
+                <button class="next">&#10095;</button>
+            </div>
+            <div class="carousel-indicators">
+                <button class="active"></button>
+                <button></button>
+                <button></button>
+            </div>
+        </div>
+        <div class="buttons-container">
+            <a href="#">Check-Up</a>
+            <a href="#">Results</a>
+            <a href="#">Hospital Appointment</a>
+        </div>
+
+        <div class="health-guide-section">
+            <h2>HEALTH GUIDE</h2>
+            <div class="health-guide-cards">
+                <div class="health-card">
+                    <img src="assets/health1.jpg" alt="Health Guide 1">
+                    <div class="card-info">
+                        <h3>What are the Symptoms of Black Fly Bite?</h3>
+                        <p>Dermatology</p>
+                    </div>
+                </div>
+                <div class="health-card">
+                    <img src="assets/health2.jpg" alt="Health Guide 2">
+                    <div class="card-info">
+                        <h3>How is the Microbiota (Gut Flora) Test Done?</h3>
+                        <p>Gastroenterology</p>
+                    </div>
+                </div>
+                <div class="health-card">
+                    <img src="assets/health3.jpg" alt="Health Guide 3">
+                    <div class="card-info">
+                        <h3>What is Debulking Surgery? How is it Performed?</h3>
+                        <p>General Surgery</p>
+                    </div>
+                </div>
+                <div class="health-card">
+                    <img src="assets/health4.jpg" alt="Health Guide 4">
+                    <div class="card-info">
+                        <h3>What is the CA 125 Test? How Long Does it Take?</h3>
+                        <p>Internal Medicine</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </div>
+    <script>
+        const slides = document.querySelectorAll('.carousel img');
+        const prevButton = document.querySelector('.carousel-buttons .prev');
+        const nextButton = document.querySelector('.carousel-buttons .next');
+        const indicators = document.querySelectorAll('.carousel-indicators button');
+        let currentSlide = 0;
+        let slideInterval;
+
+        function showSlide(index) {
+            slides.forEach((slide, i) => {
+                slide.classList.toggle('active', i === index);
+                indicators[i].classList.toggle('active', i === index);
+            });
+        }
+
+        function nextSlide() {
+            currentSlide = (currentSlide + 1) % slides.length;
+            showSlide(currentSlide);
+        }
+
+        function prevSlide() {
+            currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+            showSlide(currentSlide);
+        }
+
+        function startSlideShow() {
+            slideInterval = setInterval(nextSlide, 3000);
+        }
+
+        function stopSlideShow() {
+            clearInterval(slideInterval);
+        }
+
+        nextButton.addEventListener('click', () => {
+            nextSlide();
+            stopSlideShow();
+            startSlideShow();
+        });
+
+        prevButton.addEventListener('click', () => {
+            prevSlide();
+            stopSlideShow();
+            startSlideShow();
+        });
+
+        indicators.forEach((indicator, index) => {
+            indicator.addEventListener('click', () => {
+                currentSlide = index;
+                showSlide(currentSlide);
+                stopSlideShow();
+                startSlideShow();
+            });
+        });
+
+        startSlideShow();
+        showSlide(currentSlide);
+    </script>
+</body>
+</html>

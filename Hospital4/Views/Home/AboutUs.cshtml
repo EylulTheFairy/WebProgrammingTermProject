@@ -1,0 +1,223 @@
+﻿<!DOCTYPE html>
+
+<head>
+    <title>WM About Us</title>
+    <link href="AboutUs.css" rel="stylesheet" />
+</head>
+<body>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .header {
+            background-color: #b30000;
+            padding: 15px 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo-text a {
+            color: white;
+            text-decoration: none;
+            font-size: 28px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+
+            .nav-links a {
+                color: white;
+                text-decoration: none;
+                font-size: 16px;
+                font-weight: 600;
+                transition: color 0.3s;
+            }
+
+                .nav-links a:hover {
+                    color: #ffcccc;
+                }
+
+        .auth-buttons {
+            display: flex;
+            gap: 10px;
+        }
+
+            .auth-buttons a {
+                color: #b30000;
+                background-color: white;
+                text-decoration: none;
+                padding: 5px 15px;
+                border-radius: 5px;
+                font-size: 14px;
+                font-weight: 600;
+            }
+
+                .auth-buttons a:hover {
+                    background-color: #ffcccc;
+                    color: #b30000;
+                }
+
+        .main-content {
+            flex: 1;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            margin: 50px auto;
+            width: 80%;
+        }
+
+        .sidebar {
+            width: 250px;
+            margin-right: 20px;
+            position: relative;
+            background-color: #f4f4f4;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+            .sidebar a {
+                display: block;
+                color: #ff0000;
+                text-decoration: none;
+                margin-bottom: 10px;
+                font-size: 18px;
+                position: relative;
+                z-index: 1;
+                padding: 10px;
+                background-color: rgba(255, 255, 255, 0.5);
+                border-radius: 5px;
+                transition: background-color 0.3s, color 0.3s;
+            }
+
+                .sidebar a:hover {
+                    background-color: #ff0000;
+                    color: #fff;
+                }
+
+                .sidebar a + a {
+                    border-top: 1px solid #ccc;
+                }
+
+        .content {
+            flex: 1;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+            .content h1, .content h2 {
+                font-family: 'Utm Times New Roman', serif;
+                color: #ff0000;
+                margin-bottom: 20px;
+                border-bottom: 2px solid #ff0000;
+                padding-bottom: 10px;
+            }
+
+            .content h1 {
+                font-size: 36px;
+            }
+
+            .content h2 {
+                font-size: 30px;
+                margin-top: 40px;
+            }
+
+            .content p {
+                font-family: 'Utm Times New Roman', serif;
+                color: #333;
+                font-size: 18px;
+                line-height: 1.6;
+                margin-bottom: 20px;
+            }
+
+
+            .footer .social-icons a {
+                color: #fff;
+                margin: 0 10px;
+                text-decoration: none;
+                font-size: 24px;
+            }
+    </style>
+    <div class="header">
+        <div class="logo-text"><a href="Home.cshtml">WiseMed</a></div> <!-- Link to homepage -->
+        <nav class="nav-links">
+            <a href="Home.html">Home</a>
+            <a href="#">Medical Units</a>
+            <a href="#">Doctors</a>
+            <a href="#">Health Guide</a>
+            <a href="#">Patient Guide</a>
+            <a href="AboutUs.html">About Us</a>
+            <a href="ContactUs.html">Contact Us</a>
+        </nav>
+        <div class="auth-buttons">
+            <a href="#">Doctor Login</a>
+            <a href="#">Patient Login</a>
+            <a href="#">Quick Appointment</a>
+        </div>
+    </div>
+    <div class="main-content">
+        <div class="sidebar">
+            <a href="#">
+                Quality Management System
+            </a>
+            <a href="#">
+                Vision
+            </a>
+            <a href="#">
+                Invest Relations
+            </a>
+            <a href="#">
+                Sponsorship
+            </a>
+            <a href="#">
+                Safety of Personal Data
+            </a>
+            <a href="#">
+                Tenders
+            </a>
+            <a href="#">
+                Guest Satisfaction and Complaint Management Policy
+            </a>
+            <a href="#">
+                Terms of Use and Privacy Policy
+            </a>
+        </div>
+        <div class="content">
+            <h1>About Us</h1>
+            <p>Welcome to WiseMed Hospital, where excellence in healthcare meets compassionate care. Founded with a mission to provide accessible, high-quality medical services, WiseMed Hospital has been a trusted name in healthcare, offering a comprehensive range of services tailored to the needs of our community.</p>
+            <p>With a team of highly skilled medical professionals and state-of-the-art technology, WiseMed is committed to advancing the health and well-being of every individual who walks through our doors. Our focus is not only on treating illnesses but also on promoting long-term wellness through preventive care and patient education.</p>
+            <h2>Our Mission</h2>
+            <p>At WiseMed, our mission is clear: to deliver exceptional healthcare with a personal touch. We strive to create a welcoming and healing environment where every patient feels valued, respected, and understood. We aim to empower our patients with knowledge and support, helping them make informed decisions about their health.</p>
+            <h2>Our Vision</h2>
+            <p>Our vision is to be a leading healthcare provider known for our commitment to quality, innovation, and compassionate care. We are continuously evolving and investing in advanced medical technologies and methodologies to improve patient outcomes and overall satisfaction.</p>
+            <h2>Our Values</h2>
+            <p>Our values include compassion, treating every patient with empathy and kindness; excellence, committing to the highest standards of medical care and professionalism; innovation, embracing the latest advancements in healthcare to better serve our patients; and integrity, operating with transparency and ethical practices in all aspects of our service.</p>
+            <h2>Why Choose WiseMed</h2>
+            <p>WiseMed Hospital stands out for its commitment to comprehensive, patient-centered care. Whether you’re here for routine checkups or advanced medical procedures, our multidisciplinary team is dedicated to providing a seamless healthcare experience. From our physicians and nurses to our support staff, each member of the WiseMed family is here to ensure that your health journey is as smooth and comfortable as possible.</p>
+            <p>At WiseMed, we are more than just a hospital; we are a community dedicated to your health and wellness.</p>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </div>
+</body>
+
