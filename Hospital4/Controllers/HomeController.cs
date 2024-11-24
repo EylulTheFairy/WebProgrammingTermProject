@@ -26,5 +26,31 @@ namespace Hospital4.Controllers
 
             return View();
         }
+
+        public ActionResult Eappointment()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+        public ActionResult Login()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+
+        public ActionResult MedicalUnits()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+        public ActionResult Register()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
     }
 }

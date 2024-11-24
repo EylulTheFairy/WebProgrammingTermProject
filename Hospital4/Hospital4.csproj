@@ -170,6 +170,13 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Resources\assets\health1.jpg" />
+    <Content Include="Resources\assets\health2.jpg" />
+    <Content Include="Resources\assets\health3.jpg" />
+    <Content Include="Resources\assets\health4.jpg" />
+    <Content Include="Resources\assets\Slaid1.jpg" />
+    <Content Include="Resources\assets\Slaid2.jpg" />
+    <Content Include="Resources\assets\Slaid3.jpg" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -187,9 +194,6 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
-    <Content Include="Views\Home\AboutUs.css" />
-    <Content Include="Views\Home\ContactUs.css" />
-    <Content Include="Views\Home\Home.css" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -238,6 +242,10 @@
     <Content Include="Views\Home\Home.cshtml" />
     <Content Include="Views\Home\ContactUs.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\MedicalUnits.cshtml" />
+    <Content Include="Views\Home\Login.cshtml" />
+    <Content Include="Views\Home\Eappointment.cshtml" />
+    <Content Include="Views\Home\Register.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -1,0 +1,167 @@
+﻿<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Arsenal:wght@400;700&display=swap" rel="stylesheet" />
+    <title>Medical Units</title>
+    <style>
+        @Html.Raw("@import url('https://fonts.googleapis.com/css2?family=Times+New+Roman&display=swap');")
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: url('https://storage.googleapis.com/a1aa/image/VqQuzZ5BfoxLCKJesbcb9nv84jc9OpEvI5qZ4WimfgfbjqQPB.jpg') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .header {
+            background-color: #b30000;
+            padding: 15px 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .logo-text a {
+            color: white;
+            text-decoration: none;
+            font-size: 28px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+        }
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        .nav-links a:hover {
+            color: #ffcccc;
+        }
+        .auth-buttons {
+            display: flex;
+            gap: 10px;
+        }
+        .auth-buttons a {
+            color: #b30000;
+            background-color: white;
+            text-decoration: none;
+            padding: 5px 15px;
+            border-radius: 5px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .auth-buttons a:hover {
+            background-color: #ffcccc;
+            color: #b30000;
+        }
+        .footer {
+            background-color: rgba(0, 0, 0, 0.8); /* Adjust the transparency here */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            border-radius: 0 0 8px 8px; /* Add border-radius to the bottom */
+        }
+        .footer .social-icons a {
+            color: #fff;
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 24px;
+        }
+        .content {
+            background-color: rgba(255, 255, 255, 0.8); /* Adjust the transparency here */
+            padding: 20px;
+            text-align: center;
+            flex: 1;
+            width: 60%; /* Adjust the width as needed */
+            margin: 20px auto; /* Center the content */
+            border-radius: 8px;
+            overflow-y: auto; /* Add vertical scroll if content overflows */
+            max-height: calc(100vh - 200px); /* Adjust max-height to fit within the viewport */
+            margin-top: 100px;
+            margin-bottom: 230px;
+        }
+        .content h1 {
+            font-family: 'Arsenal', sans-serif;
+            margin-bottom: 20px; /* Increase the space between the title and the list */
+        }
+        .content p {
+            font-family: 'Arsenal', sans-serif;
+            margin-bottom: 20px; /* Increase the space between the subtitle and the list */
+        }
+        .content ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .content ul li {
+            width: 22%; /* Adjust the width to fit 4 items per row */
+            margin: 10px;
+            text-align: left;
+        }
+        .content ul li a {
+            text-decoration: none;
+            color: #2c3e50;
+            font-size: 16px;
+        }
+        .content ul li a i {
+            color: #2c3e50;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="content">
+        <h1>Medical Units</h1>
+        <p>WiseMed Hospital / Medical Units</p>
+        <ul>
+            <li><a href="#"><i class="fas fa-arrow-right"></i> Emergency Service</a></li>
+            <li><a href="#"><i class="fas fa-arrow-right"></i> Child Health and Diseases</a></li>
+            <li><a href="#"><i class="fas fa-arrow-right"></i> Obstetrics and Gynecology</a></li>
+            <li><a href="#"><i class="fas fa-arrow-right"></i> Orthopedics and Traumatology</a></li>
+            <li><a href="#"><i class="fas fa-arrow-right"></i> Oral and Dental Health</a></li>
+            <li><a href="#"><i class="fas fa-arrow-right"></i> Internal Medicine</a></li>
+            <li><a href="#"><i class="fas fa-arrow-right"></i> Cardiology</a></li>
+            <li><a href="#"><i class="fas fa-arrow-right"></i> Plastic and Aesthetic Surgery</a></li>
+            <li><a href="#"><i class="fas fa-arrow-right"></i> Anesthesia and Reanimation</a></li>
+            <li><a href="#"><i class="fas fa-arrow-right"></i> Dermatology</a></li>
+            <li><a href="#"><i class="fas fa-arrow-right"></i> Clinical Laboratory</a></li>
+            <li><a href="#"><i class="fas fa-arrow-right"></i> Anesthesia and Reanimation</a></li>
+            <li><a href="#"><i class="fas fa-arrow-right"></i> Nutrition and Diet</a></li>
+            <li><a href="#"><i class="fas fa-arrow-right"></i> Hand and Microsurgery</a></li>
+            <li><a href="#"><i class="fas fa-arrow-right"></i> Ear, Nose, and Throat</a></li>
+            <li><a href="#"><i class="fas fa-arrow-right"></i> Psychologist</a></li>
+            <li><a href="#"><i class="fas fa-arrow-right"></i> Neurosurgery</a></li>
+            <li><a href="#"><i class="fas fa-arrow-right"></i> General Surgery</a></li>
+            <li><a href="#"><i class="fas fa-arrow-right"></i> Medical Aesthetics</a></li>
+            <li><a href="#"><i class="fas fa-arrow-right"></i> Radiology/Imaging Unit</a></li>
+            <li><a href="#"><i class="fas fa-arrow-right"></i> Check-Up Unit</a></li>
+            <li><a href="#"><i class="fas fa-arrow-right"></i> Eye Diseases</a></li>
+            <li><a href="#"><i class="fas fa-arrow-right"></i> Neurology</a></li>
+            <li><a href="#"><i class="fas fa-arrow-right"></i> Urology</a></li>
+        </ul>
+    </div>
+    <div class="footer">
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </div>
+</body>
+</html>

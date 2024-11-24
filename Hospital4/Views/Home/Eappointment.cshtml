@@ -1,0 +1,275 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Utm+Times+New+Roman&display=swap" rel="stylesheet" />
+    <title>WiseMed</title>
+    <style>
+        @Html.Raw("@import url('https://fonts.googleapis.com/css2?family=Times+New+Roman&display=swap');")
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: url('https://storage.googleapis.com/a1aa/image/VqQuzZ5BfoxLCKJesbcb9nv84jc9OpEvI5qZ4WimfgfbjqQPB.jpg') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .header {
+            background-color: #b30000;
+            padding: 15px 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .logo-text a {
+            color: white;
+            text-decoration: none;
+            font-size: 28px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+        }
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        .nav-links a:hover {
+            color: #ffcccc;
+        }
+        .auth-buttons {
+            display: flex;
+            gap: 10px;
+        }
+        .auth-buttons a {
+            color: #b30000;
+            background-color: white;
+            text-decoration: none;
+            padding: 5px 15px;
+            border-radius: 5px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .auth-buttons a:hover {
+            background-color: #ffcccc;
+            color: #b30000;
+        }
+        .footer {
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .footer .social-icons a {
+            color: #fff;
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 24px;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 50px;
+            flex: 1;
+        }
+        .form-container {
+            background: rgba(255, 255, 255, 0.7); /* Adjust the transparency here */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 50%;
+        }
+        .form-container input, .form-container textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        .form-container textarea {
+            height: 150px; /* Increase the height of the textarea */
+        }
+        .form-container label {
+            font-weight: bold;
+        }
+        .form-container .submit-btn {
+            background-color: #e60000;
+            color: white;
+            padding: 10px 20px; /* Adjust padding to fit the text */
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 20px; /* Add margin to move the button down */
+            display: block;
+            margin-left: auto; /* Center the button */
+            margin-right: auto; /* Center the button */
+            font-weight: bold;
+        }
+        .datepicker {
+            position: relative;
+        }
+        .datepicker input {
+            cursor: pointer;
+        }
+        .datepicker .calendar {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            z-index: 10;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: none;
+        }
+        .datepicker .calendar table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .datepicker .calendar th, .datepicker .calendar td {
+            padding: 10px;
+            text-align: center;
+            cursor: pointer;
+        }
+        .datepicker .calendar th {
+            background-color: #f0f0f0;
+        }
+        .datepicker .calendar td:hover {
+            background-color: #f0f0f0;
+        }
+        h1 {
+            text-align: center;
+            color: #db0000; /* Lighter red color */
+            font-family: 'Utm Times New Roman', serif; /* Utm Times font */
+            font-weight: bold; /* Bold text */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h1>MAKE AN APPOINTMENT</h1>
+            <p>By filling out the appointment form below, you can contact us. Our team will contact you as soon as possible regarding your appointment planning.</p>
+            <form>
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name and Surname *" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email Address *" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" placeholder="Your Phone Number *" required>
+                </div>
+                <div class="form-group datepicker">
+                    <input type="text" placeholder="Requested Appointment Date *" required readonly>
+                    <div class="calendar">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th colspan="7">November 2024</th>
+                                </tr>
+                                <tr>
+                                    <th>Sun</th>
+                                    <th>Mon</th>
+                                    <th>Tue</th>
+                                    <th>Wed</th>
+                                    <th>Thu</th>
+                                    <th>Fri</th>
+                                    <th>Sat</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>1</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>4</td>
+                                    <td>5</td>
+                                    <td>6</td>
+                                    <td>7</td>
+                                    <td>8</td>
+                                    <td>9</td>
+                                </tr>
+                                <tr>
+                                    <td>10</td>
+                                    <td>11</td>
+                                    <td>12</td>
+                                    <td>13</td>
+                                    <td>14</td>
+                                    <td>15</td>
+                                    <td>16</td>
+                                </tr>
+                                <tr>
+                                    <td>17</td>
+                                    <td>18</td>
+                                    <td>19</td>
+                                    <td>20</td>
+                                    <td>21</td>
+                                    <td>22</td>
+                                    <td>23</td>
+                                </tr>
+                                <tr>
+                                    <td>24</td>
+                                    <td>25</td>
+                                    <td>26</td>
+                                    <td>27</td>
+                                    <td>28</td>
+                                    <td>29</td>
+                                    <td>30</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="form-group full-width">
+                    <input type="text" placeholder="Please write the treatment you are requesting... *" required>
+                </div>
+                <div class="form-group full-width">
+                    <textarea placeholder="Your Message (Optional)"></textarea>
+                </div>
+                <button type="submit" class="submit-btn">SUBMIT</button>
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </div>
+    <script>
+        document.querySelector('.datepicker input').addEventListener('click', function() {
+            document.querySelector('.datepicker .calendar').style.display = 'block';
+        });
+        document.querySelectorAll('.datepicker .calendar td').forEach(function(day) {
+            day.addEventListener('click', function() {
+                document.querySelector('.datepicker input').value = this.textContent + ' November 2024';
+                document.querySelector('.datepicker .calendar').style.display = 'none';
+            });
+        });
+    </script>
+</body>
+</html>

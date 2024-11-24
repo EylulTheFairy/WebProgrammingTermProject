@@ -3,20 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\geunl\\source\\repos\\Hospital4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6A0D323D-13ED-40A7-8A61-16837885FF5B}|Hospital4\\Hospital4.csproj|c:\\users\\geunl\\source\\repos\\hospital4\\hospital4\\views\\home\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6A0D323D-13ED-40A7-8A61-16837885FF5B}|Hospital4\\Hospital4.csproj|solutionrelative:hospital4\\views\\home\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A0D323D-13ED-40A7-8A61-16837885FF5B}|Hospital4\\Hospital4.csproj|c:\\users\\geunl\\source\\repos\\hospital4\\hospital4\\views\\home\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{6A0D323D-13ED-40A7-8A61-16837885FF5B}|Hospital4\\Hospital4.csproj|solutionrelative:hospital4\\views\\home\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{6A0D323D-13ED-40A7-8A61-16837885FF5B}|Hospital4\\Hospital4.csproj|C:\\Users\\geunl\\source\\repos\\Hospital4\\hospital4\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A0D323D-13ED-40A7-8A61-16837885FF5B}|Hospital4\\Hospital4.csproj|solutionrelative:hospital4\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6A0D323D-13ED-40A7-8A61-16837885FF5B}|Hospital4\\Hospital4.csproj|c:\\users\\geunl\\source\\repos\\hospital4\\hospital4\\views\\home\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6A0D323D-13ED-40A7-8A61-16837885FF5B}|Hospital4\\Hospital4.csproj|solutionrelative:hospital4\\views\\home\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A0D323D-13ED-40A7-8A61-16837885FF5B}|Hospital4\\Hospital4.csproj|c:\\users\\geunl\\source\\repos\\hospital4\\hospital4\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6A0D323D-13ED-40A7-8A61-16837885FF5B}|Hospital4\\Hospital4.csproj|solutionrelative:hospital4\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6A0D323D-13ED-40A7-8A61-16837885FF5B}|Hospital4\\Hospital4.csproj|c:\\users\\geunl\\source\\repos\\hospital4\\hospital4\\views\\home\\contactus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A0D323D-13ED-40A7-8A61-16837885FF5B}|Hospital4\\Hospital4.csproj|solutionrelative:hospital4\\views\\home\\contactus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A0D323D-13ED-40A7-8A61-16837885FF5B}|Hospital4\\Hospital4.csproj|c:\\users\\geunl\\source\\repos\\hospital4\\hospital4\\views\\home\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A0D323D-13ED-40A7-8A61-16837885FF5B}|Hospital4\\Hospital4.csproj|solutionrelative:hospital4\\views\\home\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A0D323D-13ED-40A7-8A61-16837885FF5B}|Hospital4\\Hospital4.csproj|C:\\Users\\geunl\\source\\repos\\Hospital4\\hospital4\\views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A0D323D-13ED-40A7-8A61-16837885FF5B}|Hospital4\\Hospital4.csproj|solutionrelative:hospital4\\views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A0D323D-13ED-40A7-8A61-16837885FF5B}|Hospital4\\Hospital4.csproj|C:\\Users\\geunl\\source\\repos\\Hospital4\\hospital4\\views\\home\\medicalunits.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A0D323D-13ED-40A7-8A61-16837885FF5B}|Hospital4\\Hospital4.csproj|solutionrelative:hospital4\\views\\home\\medicalunits.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A0D323D-13ED-40A7-8A61-16837885FF5B}|Hospital4\\Hospital4.csproj|c:\\users\\geunl\\source\\repos\\hospital4\\hospital4\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A0D323D-13ED-40A7-8A61-16837885FF5B}|Hospital4\\Hospital4.csproj|solutionrelative:hospital4\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A0D323D-13ED-40A7-8A61-16837885FF5B}|Hospital4\\Hospital4.csproj|C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Models\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A0D323D-13ED-40A7-8A61-16837885FF5B}|Hospital4\\Hospital4.csproj|solutionrelative:Hospital4\\Models\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A0D323D-13ED-40A7-8A61-16837885FF5B}|Hospital4\\Hospital4.csproj|C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Models\\nurse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A0D323D-13ED-40A7-8A61-16837885FF5B}|Hospital4\\Hospital4.csproj|solutionrelative:Hospital4\\Models\\nurse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A0D323D-13ED-40A7-8A61-16837885FF5B}|Hospital4\\Hospital4.csproj|C:\\Users\\geunl\\source\\repos\\Hospital4\\hospital4\\views\\home\\eappointment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A0D323D-13ED-40A7-8A61-16837885FF5B}|Hospital4\\Hospital4.csproj|solutionrelative:hospital4\\views\\home\\eappointment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A0D323D-13ED-40A7-8A61-16837885FF5B}|Hospital4\\Hospital4.csproj|C:\\Users\\geunl\\source\\repos\\Hospital4\\hospital4\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A0D323D-13ED-40A7-8A61-16837885FF5B}|Hospital4\\Hospital4.csproj|solutionrelative:hospital4\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A0D323D-13ED-40A7-8A61-16837885FF5B}|Hospital4\\Hospital4.csproj|C:\\Users\\geunl\\source\\repos\\Hospital4\\hospital4\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A0D323D-13ED-40A7-8A61-16837885FF5B}|Hospital4\\Hospital4.csproj|solutionrelative:hospital4\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A0D323D-13ED-40A7-8A61-16837885FF5B}|Hospital4\\Hospital4.csproj|C:\\Users\\geunl\\source\\repos\\Hospital4\\hospital4\\models\\hospitaldb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A0D323D-13ED-40A7-8A61-16837885FF5B}|Hospital4\\Hospital4.csproj|solutionrelative:hospital4\\models\\hospitaldb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A0D323D-13ED-40A7-8A61-16837885FF5B}|Hospital4\\Hospital4.csproj|C:\\Users\\geunl\\source\\repos\\Hospital4\\hospital4\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{6A0D323D-13ED-40A7-8A61-16837885FF5B}|Hospital4\\Hospital4.csproj|solutionrelative:hospital4\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A0D323D-13ED-40A7-8A61-16837885FF5B}|Hospital4\\Hospital4.csproj|C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A0D323D-13ED-40A7-8A61-16837885FF5B}|Hospital4\\Hospital4.csproj|solutionrelative:Hospital4\\Models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\geunl\\source\\repos\\HospitalTest3\\HospitalTest3\\Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
@@ -58,18 +102,6 @@
       "RelativeMoniker": "D:0:0:{6A0D323D-13ED-40A7-8A61-16837885FF5B}|Hospital4\\Hospital4.csproj|solutionrelative:Hospital4\\Controllers\\appointmentsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A0D323D-13ED-40A7-8A61-16837885FF5B}|Hospital4\\Hospital4.csproj|C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Models\\hospitalDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A0D323D-13ED-40A7-8A61-16837885FF5B}|Hospital4\\Hospital4.csproj|solutionrelative:Hospital4\\Models\\hospitalDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A0D323D-13ED-40A7-8A61-16837885FF5B}|Hospital4\\Hospital4.csproj|C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Models\\nurse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A0D323D-13ED-40A7-8A61-16837885FF5B}|Hospital4\\Hospital4.csproj|solutionrelative:Hospital4\\Models\\nurse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A0D323D-13ED-40A7-8A61-16837885FF5B}|Hospital4\\Hospital4.csproj|C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A0D323D-13ED-40A7-8A61-16837885FF5B}|Hospital4\\Hospital4.csproj|solutionrelative:Hospital4\\Models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6A0D323D-13ED-40A7-8A61-16837885FF5B}|Hospital4\\Hospital4.csproj|C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A0D323D-13ED-40A7-8A61-16837885FF5B}|Hospital4\\Hospital4.csproj|solutionrelative:Hospital4\\Models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -80,10 +112,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6A0D323D-13ED-40A7-8A61-16837885FF5B}|Hospital4\\Hospital4.csproj|C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A0D323D-13ED-40A7-8A61-16837885FF5B}|Hospital4\\Hospital4.csproj|solutionrelative:Hospital4\\Models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A0D323D-13ED-40A7-8A61-16837885FF5B}|Hospital4\\Hospital4.csproj|C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Models\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A0D323D-13ED-40A7-8A61-16837885FF5B}|Hospital4\\Hospital4.csproj|solutionrelative:Hospital4\\Models\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6A0D323D-13ED-40A7-8A61-16837885FF5B}|Hospital4\\Hospital4.csproj|C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -97,196 +125,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Home.css",
-              "DocumentMoniker": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Views\\Home\\Home.css",
-              "RelativeDocumentMoniker": "Hospital4\\Views\\Home\\Home.css",
-              "ToolTip": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Views\\Home\\Home.css",
-              "RelativeToolTip": "Hospital4\\Views\\Home\\Home.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-24T11:20:04.448Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Home.cshtml",
-              "DocumentMoniker": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Views\\Home\\Home.cshtml",
-              "RelativeDocumentMoniker": "Hospital4\\Views\\Home\\Home.cshtml",
-              "ToolTip": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Views\\Home\\Home.cshtml",
-              "RelativeToolTip": "Hospital4\\Views\\Home\\Home.cshtml",
-              "ViewState": "AgIAANgAAAAAAAAAAAAswOEAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-24T11:19:56.871Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Hospital4\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Hospital4\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-24T11:17:47.687Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\geunl\\source\\repos\\HospitalTest3\\HospitalTest3\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "..\\HospitalTest3\\HospitalTest3\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\geunl\\source\\repos\\HospitalTest3\\HospitalTest3\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "..\\HospitalTest3\\HospitalTest3\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACQAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-24T11:17:23.344Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "AboutUs.cshtml",
               "DocumentMoniker": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Views\\Home\\AboutUs.cshtml",
               "RelativeDocumentMoniker": "Hospital4\\Views\\Home\\AboutUs.cshtml",
               "ToolTip": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Views\\Home\\AboutUs.cshtml",
               "RelativeToolTip": "Hospital4\\Views\\Home\\AboutUs.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-24T11:11:24.69Z",
+              "WhenOpened": "2024-11-24T14:50:45.941Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Views\\appointments\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Hospital4\\Views\\appointments\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Views\\appointments\\Delete.cshtml",
-              "RelativeToolTip": "Hospital4\\Views\\appointments\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAANAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Home.cshtml",
+              "DocumentMoniker": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Views\\Home\\Home.cshtml",
+              "RelativeDocumentMoniker": "Hospital4\\Views\\Home\\Home.cshtml",
+              "ToolTip": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Views\\Home\\Home.cshtml",
+              "RelativeToolTip": "Hospital4\\Views\\Home\\Home.cshtml",
+              "ViewState": "AgIAACwBAAAAAAAAAAAAADUBAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-24T10:31:47.822Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Views\\appointments\\Create.cshtml",
-              "RelativeDocumentMoniker": "Hospital4\\Views\\appointments\\Create.cshtml",
-              "ToolTip": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Views\\appointments\\Create.cshtml",
-              "RelativeToolTip": "Hospital4\\Views\\appointments\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-24T10:31:26.55Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "treatmentsController.cs",
-              "DocumentMoniker": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Controllers\\treatmentsController.cs",
-              "RelativeDocumentMoniker": "Hospital4\\Controllers\\treatmentsController.cs",
-              "ToolTip": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Controllers\\treatmentsController.cs",
-              "RelativeToolTip": "Hospital4\\Controllers\\treatmentsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T10:31:08.967Z"
+              "WhenOpened": "2024-11-24T14:46:57.086Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "roomsController.cs",
-              "DocumentMoniker": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Controllers\\roomsController.cs",
-              "RelativeDocumentMoniker": "Hospital4\\Controllers\\roomsController.cs",
-              "ToolTip": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Controllers\\roomsController.cs",
-              "RelativeToolTip": "Hospital4\\Controllers\\roomsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T10:30:58.746Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "patientsController.cs",
-              "DocumentMoniker": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Controllers\\patientsController.cs",
-              "RelativeDocumentMoniker": "Hospital4\\Controllers\\patientsController.cs",
-              "ToolTip": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Controllers\\patientsController.cs",
-              "RelativeToolTip": "Hospital4\\Controllers\\patientsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T10:30:47.184Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "nursesController.cs",
-              "DocumentMoniker": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Controllers\\nursesController.cs",
-              "RelativeDocumentMoniker": "Hospital4\\Controllers\\nursesController.cs",
-              "ToolTip": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Controllers\\nursesController.cs",
-              "RelativeToolTip": "Hospital4\\Controllers\\nursesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T10:30:36.912Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "doctorsController.cs",
-              "DocumentMoniker": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Controllers\\doctorsController.cs",
-              "RelativeDocumentMoniker": "Hospital4\\Controllers\\doctorsController.cs",
-              "ToolTip": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Controllers\\doctorsController.cs",
-              "RelativeToolTip": "Hospital4\\Controllers\\doctorsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T10:30:23.687Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "billsController.cs",
-              "DocumentMoniker": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Controllers\\billsController.cs",
-              "RelativeDocumentMoniker": "Hospital4\\Controllers\\billsController.cs",
-              "ToolTip": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Controllers\\billsController.cs",
-              "RelativeToolTip": "Hospital4\\Controllers\\billsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T10:30:11.734Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "appointmentsController.cs",
-              "DocumentMoniker": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Controllers\\appointmentsController.cs",
-              "RelativeDocumentMoniker": "Hospital4\\Controllers\\appointmentsController.cs",
-              "ToolTip": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Controllers\\appointmentsController.cs",
-              "RelativeToolTip": "Hospital4\\Controllers\\appointmentsController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAA3wDUAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T10:29:18.632Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "hospitalDB.cs",
-              "DocumentMoniker": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Models\\hospitalDB.cs",
-              "RelativeDocumentMoniker": "Hospital4\\Models\\hospitalDB.cs",
-              "ToolTip": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Models\\hospitalDB.cs",
-              "RelativeToolTip": "Hospital4\\Models\\hospitalDB.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAADwvxQAAABWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T10:13:54.474Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
               "Title": "nurse.cs",
               "DocumentMoniker": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Models\\nurse.cs",
               "RelativeDocumentMoniker": "Hospital4\\Models\\nurse.cs",
@@ -294,11 +171,163 @@
               "RelativeToolTip": "Hospital4\\Models\\nurse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T10:07:17.323Z"
+              "WhenOpened": "2024-11-24T10:07:17.323Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 7,
+              "Title": "bill.cs",
+              "DocumentMoniker": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Models\\bill.cs",
+              "RelativeDocumentMoniker": "Hospital4\\Models\\bill.cs",
+              "ToolTip": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Models\\bill.cs",
+              "RelativeToolTip": "Hospital4\\Models\\bill.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T10:25:58.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ContactUs.cshtml",
+              "DocumentMoniker": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Views\\Home\\ContactUs.cshtml",
+              "RelativeDocumentMoniker": "Hospital4\\Views\\Home\\ContactUs.cshtml",
+              "ToolTip": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Views\\Home\\ContactUs.cshtml",
+              "RelativeToolTip": "Hospital4\\Views\\Home\\ContactUs.cshtml",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAiwJkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T14:42:47.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "Hospital4\\Views\\Home\\Login.cshtml",
+              "ToolTip": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "Hospital4\\Views\\Home\\Login.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAAcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T12:28:56.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Hospital4\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Hospital4\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAiwFQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T11:17:47.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MedicalUnits.cshtml",
+              "DocumentMoniker": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Views\\Home\\MedicalUnits.cshtml",
+              "RelativeDocumentMoniker": "Hospital4\\Views\\Home\\MedicalUnits.cshtml",
+              "ToolTip": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Views\\Home\\MedicalUnits.cshtml",
+              "RelativeToolTip": "Hospital4\\Views\\Home\\MedicalUnits.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T12:28:17.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Views\\Home\\Register.cshtml",
+              "RelativeDocumentMoniker": "Hospital4\\Views\\Home\\Register.cshtml",
+              "ToolTip": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Views\\Home\\Register.cshtml",
+              "RelativeToolTip": "Hospital4\\Views\\Home\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T12:30:01.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "Hospital4\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "Hospital4\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAMwBMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T12:36:35.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Eappointment.cshtml",
+              "DocumentMoniker": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Views\\Home\\Eappointment.cshtml",
+              "RelativeDocumentMoniker": "Hospital4\\Views\\Home\\Eappointment.cshtml",
+              "ToolTip": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Views\\Home\\Eappointment.cshtml",
+              "RelativeToolTip": "Hospital4\\Views\\Home\\Eappointment.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T12:29:41.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\geunl\\source\\repos\\HospitalTest3\\HospitalTest3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "..\\HospitalTest3\\HospitalTest3\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\geunl\\source\\repos\\HospitalTest3\\HospitalTest3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "..\\HospitalTest3\\HospitalTest3\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAEBVwCQAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T11:17:23.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Hospital4\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Hospital4\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAcwDAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T12:36:48.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "hospitalDB.cs",
+              "DocumentMoniker": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Models\\hospitalDB.cs",
+              "RelativeDocumentMoniker": "Hospital4\\Models\\hospitalDB.cs",
+              "ToolTip": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Models\\hospitalDB.cs",
+              "RelativeToolTip": "Hospital4\\Models\\hospitalDB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T10:13:54.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Views\\Web.config",
+              "RelativeDocumentMoniker": "Hospital4\\Views\\Web.config",
+              "ToolTip": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Views\\Web.config",
+              "RelativeToolTip": "Hospital4\\Views\\Web.config",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-11-24T12:36:21.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "patient.cs",
               "DocumentMoniker": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Models\\patient.cs",
               "RelativeDocumentMoniker": "Hospital4\\Models\\patient.cs",
@@ -310,7 +339,115 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Views\\appointments\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Hospital4\\Views\\appointments\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Views\\appointments\\Delete.cshtml",
+              "RelativeToolTip": "Hospital4\\Views\\appointments\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T10:31:47.822Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 17,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Views\\appointments\\Create.cshtml",
+              "RelativeDocumentMoniker": "Hospital4\\Views\\appointments\\Create.cshtml",
+              "ToolTip": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Views\\appointments\\Create.cshtml",
+              "RelativeToolTip": "Hospital4\\Views\\appointments\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T10:31:26.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "treatmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Controllers\\treatmentsController.cs",
+              "RelativeDocumentMoniker": "Hospital4\\Controllers\\treatmentsController.cs",
+              "ToolTip": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Controllers\\treatmentsController.cs",
+              "RelativeToolTip": "Hospital4\\Controllers\\treatmentsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T10:31:08.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "roomsController.cs",
+              "DocumentMoniker": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Controllers\\roomsController.cs",
+              "RelativeDocumentMoniker": "Hospital4\\Controllers\\roomsController.cs",
+              "ToolTip": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Controllers\\roomsController.cs",
+              "RelativeToolTip": "Hospital4\\Controllers\\roomsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T10:30:58.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "patientsController.cs",
+              "DocumentMoniker": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Controllers\\patientsController.cs",
+              "RelativeDocumentMoniker": "Hospital4\\Controllers\\patientsController.cs",
+              "ToolTip": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Controllers\\patientsController.cs",
+              "RelativeToolTip": "Hospital4\\Controllers\\patientsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T10:30:47.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "nursesController.cs",
+              "DocumentMoniker": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Controllers\\nursesController.cs",
+              "RelativeDocumentMoniker": "Hospital4\\Controllers\\nursesController.cs",
+              "ToolTip": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Controllers\\nursesController.cs",
+              "RelativeToolTip": "Hospital4\\Controllers\\nursesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T10:30:36.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "doctorsController.cs",
+              "DocumentMoniker": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Controllers\\doctorsController.cs",
+              "RelativeDocumentMoniker": "Hospital4\\Controllers\\doctorsController.cs",
+              "ToolTip": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Controllers\\doctorsController.cs",
+              "RelativeToolTip": "Hospital4\\Controllers\\doctorsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T10:30:23.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "billsController.cs",
+              "DocumentMoniker": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Controllers\\billsController.cs",
+              "RelativeDocumentMoniker": "Hospital4\\Controllers\\billsController.cs",
+              "ToolTip": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Controllers\\billsController.cs",
+              "RelativeToolTip": "Hospital4\\Controllers\\billsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T10:30:11.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "appointmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Controllers\\appointmentsController.cs",
+              "RelativeDocumentMoniker": "Hospital4\\Controllers\\appointmentsController.cs",
+              "ToolTip": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Controllers\\appointmentsController.cs",
+              "RelativeToolTip": "Hospital4\\Controllers\\appointmentsController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAA3wDUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T10:29:18.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "room.cs",
               "DocumentMoniker": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Models\\room.cs",
               "RelativeDocumentMoniker": "Hospital4\\Models\\room.cs",
@@ -322,7 +459,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 26,
               "Title": "treatment.cs",
               "DocumentMoniker": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Models\\treatment.cs",
               "RelativeDocumentMoniker": "Hospital4\\Models\\treatment.cs",
@@ -334,7 +471,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 27,
               "Title": "doctor.cs",
               "DocumentMoniker": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Models\\doctor.cs",
               "RelativeDocumentMoniker": "Hospital4\\Models\\doctor.cs",
@@ -346,19 +483,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "bill.cs",
-              "DocumentMoniker": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Models\\bill.cs",
-              "RelativeDocumentMoniker": "Hospital4\\Models\\bill.cs",
-              "ToolTip": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Models\\bill.cs",
-              "RelativeToolTip": "Hospital4\\Models\\bill.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T10:25:58.175Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 28,
               "Title": "appointment.cs",
               "DocumentMoniker": "C:\\Users\\geunl\\source\\repos\\Hospital4\\Hospital4\\Models\\appointment.cs",
               "RelativeDocumentMoniker": "Hospital4\\Models\\appointment.cs",

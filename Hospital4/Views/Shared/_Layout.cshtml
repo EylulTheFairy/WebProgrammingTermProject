@@ -1,37 +1,90 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <title>@ViewBag.Title - WiseMed</title>
+
+    <!-- CSS and JS Resources -->
     @Styles.Render("~/Content/css")
+    <link href="~/Views/Home/Home.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Utm+Times+New+Roman&display=swap" rel="stylesheet" />
+
     @Scripts.Render("~/bundles/modernizr")
+
+    <!-- Integrated CSS for Sticky Footer -->
+    <style>
+        /* Ensure the body takes the full height of the page */
+        html, body {
+            height: 100%;
+            margin: 0;
+            font-family: 'Utm Times New Roman', serif;
+        }
+
+        /* Make the body use flexbox to allow footer to stay at the bottom */
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Ensure the page takes at least the full height */
+        }
+
+        /* Main content should grow and push footer to the bottom */
+        .main-content {
+            flex: 1; /* This makes the content section take available space */
+        }
+
+        /* Footer styling */
+        .footer {
+            background-color: #f8f9fa; /* or your desired background color */
+            padding: 20px;
+            text-align: center;
+            width: 100%;
+            position: relative;
+        }
+
+        .social-icons a {
+            margin: 0 10px;
+            font-size: 24px;
+            color: #333;
+        }
+
+            .social-icons a:hover {
+                color: #007bff;
+            }
+    </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark">
-        <div class="container">
-            @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" title="Toggle navigation" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
-                <ul class="navbar-nav flex-grow-1">
-                    <li>@Html.ActionLink("Home", "Index", "Home", new { area = "" }, new { @class = "nav-link" })</li>
-                    <li>@Html.ActionLink("About", "About", "Home", new { area = "" }, new { @class = "nav-link" })</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home", new { area = "" }, new { @class = "nav-link" })</li>
-                </ul>
-            </div>
+
+    <!-- Header Section -->
+    <div class="header">
+        <div class="logo-text">
+            <a href="Home.cshtml">WiseMed</a> <!-- Link to homepage -->
         </div>
-    </nav>
-    <div class="container body-content">
-        @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
-        </footer>
+        <nav class="nav-links">
+            <a href="@Url.Action("Index", "Home")">Home</a>
+            <a href="@Url.Action("MedicalUnits", "Home")">Medical Units</a>
+            <a href="@Url.Action("Doctors", "Home")">Doctors</a>
+            <a href="@Url.Action("HealthGuide", "Home")">Health Guide</a>
+            <a href="@Url.Action("PatientGuide", "Home")">Patient Guide</a>
+            <a href="@Url.Action("AboutUs", "Home")">About Us</a>
+            <a href="@Url.Action("ContactUs", "Home")">Contact Us</a>
+        </nav>
+        <div class="auth-buttons">
+            <a href="@Url.Action("Login", "Home")">Doctor Login</a>
+            <a href="@Url.Action("Login", "Home")">Patient Login</a>
+            <a href="@Url.Action("Eappointment", "Home")">Quick Appointment</a>
+        </div>
     </div>
 
+    <!-- Main Content Section -->
+    <div class="main-content">
+        @RenderBody()
+
+        <hr />
+    </div>
+
+    <!-- Scripts Section -->
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
